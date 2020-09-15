@@ -10,7 +10,7 @@ Um unter Dateien zu erstellen muss in dem dir der  Seite der befehl python manag
 
 ### APP
 | Datei  | Anmerkunng|
-|----| ---------|
+|----| ---- |
 | Ordner (Migrations)    | Einrichtung der Datenbank (Automatisch von Django gepflegt) |
 | admin.py                        | Konfigurations für die Admin Oberfläsche                                       |
 | apps.py                           | Speziefische Programmier Möglichkeiten für die App                  |
@@ -20,8 +20,10 @@ Um unter Dateien zu erstellen muss in dem dir der  Seite der befehl python manag
 
 ## Basic einstellungen
 ### Settings
-* DEBUG                            -> Sollte nur Aktiv sein wenn man am Testen ist wenn Live dann am besten *FALSE*
-* ALLOWED_HOSTS       -> Angabe der Erlaubten Hosts
-* DATABASES                   -> Standart mäßg SQLite Datenbank
-* LANGUAGE>_CODE   -> Es sollte auf  ``` "de-de" ``` gestellt werden (Sprache für den Webserver)
-* TIME_ZONE                   -> Zeit zone der Webseite ```"Europe/Berlin" ```
+| Bezeichnung | Bedeutung/Einstellungen |
+|----| ---- |
+| DEBUG                            | Sollte nur Aktiv sein wenn man am Testen ist wenn Live dann am besten *FALSE* |
+| ALLOWED_HOSTS       | Angabe der Erlaubten Hosts |
+| DATABASES                   | Standart mäßg SQLite Datenbank |
+| LANGUAGE>_CODE   | Es sollte auf  ``` "de-de" ``` gestellt werden (Sprache für den Webserver) |
+| TIME_ZONE                   | Zeit zone der Webseite ```"Europe/Berlin" ``` |
