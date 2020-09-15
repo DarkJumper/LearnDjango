@@ -22,6 +22,7 @@ Um unter Dateien zu erstellen muss in dem dir der  Seite der befehl python manag
 ### Settings
 | Bezeichnung | Bedeutung/Einstellungen |
 |----| ---- |
+| SECRET_KEY                  | Sollte bei Offiziellen Projekten nicht veröffentlicht werden |
 | DEBUG                            | Sollte nur Aktiv sein wenn man am Testen ist wenn Live dann am besten *FALSE* |
 | ALLOWED_HOSTS       | Angabe der Erlaubten Hosts |
 | DATABASES                   | Standart mäßg SQLite Datenbank |
