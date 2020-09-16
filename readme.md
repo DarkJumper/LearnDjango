@@ -34,13 +34,13 @@ Um unter Dateien zu erstellen muss in dem dir der  Seite der befehl python manag
  Es muss erstmal festgestellt werden was für Objekte gebraucht werden.
  In diesem Beispiel wären es:
 
- * Umfrageseite
- *  -- Poll
- *  --- Questions
- *  --- Choices
- *  ---- title
- *  ---- votes  
- **Die Objekte müssen in der Models.py eingefügt werden.**
+ **Umfrageseite**
+-- Poll
+--- Questions
+--- Choices
+---- title
+---- votes  
+> Die Objekte müssen in der Models.py eingefügt werden.
 
 Damit die *models*  jetzt in die Datenbank eingefügt werden kann muss der befehl
 ``` python manage.py makemigrations ```
