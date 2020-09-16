@@ -28,3 +28,22 @@ Um unter Dateien zu erstellen muss in dem dir der  Seite der befehl python manag
 | DATABASES                   | Standart mäßg SQLite Datenbank |
 | LANGUAGE>_CODE   | Es sollte auf  ``` "de-de" ``` gestellt werden (Sprache für den Webserver) |
 | TIME_ZONE                   | Zeit zone der Webseite ```"Europe/Berlin" ``` |
+
+## Programmieren der Models
+### Models
+ Es muss erstmal festgestellt werden was für Objekte gebraucht werden.
+ In diesem Beispiel wären es:
+
+ * Umfrageseite
+ *  -- Poll
+ *  --- Questions
+ *  --- Choices
+ *  ---- title
+ *  ---- votes  
+ **Die Objekte müssen in der Models.py eingefügt werden.**
+
+Damit die *models*  jetzt in die Datenbank eingefügt werden kann muss der befehl
+``` python manage.py makemigrations ```
+Django versucht nun ohne Datenverluste die neuen daten in die vorhanden zu intergrieren.
+Damit die Daten jetzt in die Datenbank geändert wird muss der befehl `python manage.py migrate` ausgeführt werden.
+So kann ohne großen aufwand änderungen an der Datenbank umgesetzt werden.
